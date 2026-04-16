@@ -16,7 +16,6 @@ In this project, we have:
 
 - A CI pipeline for building and testing a Node.js application  
 - A CD pipeline for deploying the application  
-- A failing pipeline example to demonstrate debugging using AI  
 
 All pipelines are created and improved using AI prompts.
 
@@ -54,8 +53,9 @@ This workflow is created separately using AI.
 
 ## 🐞 Debugging with AI
 
-A failing pipeline is included to demonstrate how AI helps in debugging:
+Failures are intentionally introduced (for example, removing required files or adding incorrect commands) to demonstrate how AI helps debug CI/CD issues.
 
+AI helps to:
 - Analyze error logs  
 - Identify the issue  
 - Suggest fixes  
@@ -80,7 +80,6 @@ AI was used to:
   workflows/
     ci.yml
     cd.yml
-    failing-pipeline.yml
 ```
 
 ---
@@ -91,7 +90,6 @@ AI was used to:
 2. Push code to trigger the CI pipeline  
 3. Go to the "Actions" tab in GitHub  
 4. Observe CI and CD workflows  
-5. Use the failing pipeline to test debugging  
 
 ---
 
