@@ -1,0 +1,13 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "build": "echo \"Build step\"",
+    "start": "node src/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
