@@ -116,7 +116,7 @@ All examples are:
 
 AI can significantly improve DevOps workflows by saving time and reducing manual effort.
 
-But it should always be used as an assistant—not a replacement.
+But it should always be used as an assistant—not a replacement
 
 ---
 
